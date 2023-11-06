@@ -1,6 +1,6 @@
 # Tamea-ev
-
-## React Redux를 사용하여 전기차 정보를 보여주는 웹 애플리케이션
+- React Redux를 사용하여 전기차 정보를 보여주는 웹 애플리케이션
+  
 ## Technical Stack
 - React
 - React Hooks
@@ -12,8 +12,11 @@
 ## 구현 화면
  
 ![메인](https://github.com/lcl3392/Tamea-ev/assets/133613544/eb6a5ad2-110c-4b05-92cd-af28c386f999)
+
 ![메뉴](https://github.com/lcl3392/Tamea-ev/assets/133613544/fce2855f-3e26-4935-a9d3-c84c6795a6ec)
+
 ![카드map](https://github.com/lcl3392/Tamea-ev/assets/133613544/6a8c9aa3-0ba6-4778-9e5a-de1111b44a16)
+
 ![모달창](https://github.com/lcl3392/Tamea-ev/assets/133613544/b529cca3-215f-4f2d-ba58-84c164676198)
 
 ***
