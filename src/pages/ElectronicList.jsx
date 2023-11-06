@@ -15,10 +15,10 @@ const ElectronicList = () => {
                         초기 전기자동차 보급된 시기보다 제주도 내 전기차 충전소가 늘어 현재 약 1만 4,000여 대로 거의 전기 자동차 1대당 1기의 충전기를 가지고 있습니다.
                         이제는 제주시, 서귀포시 외에 제주 여행객들이 많이 찾는 제주도 여행지 내에 서도 전기차 충전소를 쉽게 찾을 수 있습니다.
                     </h3>
-                    <img src="../../public/images/제주 시내권.jpg" alt="제주 시내권" />
-                    <img src="../../public/images/서귀포 시내권.jpg" alt="서귀포 시내권" />
-                    <img src="../../public/images/동부권.jpg" alt="동부권" />
-                    <img src="../../public/images/서부권.jpg" alt="서부권" />
+                    <img src="http://localhost:5173/dist/images/%EC%A0%9C%EC%A3%BC%20%EC%8B%9C%EB%82%B4%EA%B6%8C.jpg" alt="제주 시내권" />
+                    <img src="http://localhost:5173/dist/images/%EC%84%9C%EA%B7%80%ED%8F%AC%20%EC%8B%9C%EB%82%B4%EA%B6%8C.jpg" alt="서귀포 시내권" />
+                    <img src="http://localhost:5173/dist/images/%EB%8F%99%EB%B6%80%EA%B6%8C.jpg" alt="동부권" />
+                    <img src="http://localhost:5173/dist/images/%EC%84%9C%EB%B6%80%EA%B6%8C.jpg" alt="서부권" />
                 </div>
             </TamraeveElectronicListPg>
         </div>
