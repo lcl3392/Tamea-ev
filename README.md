@@ -41,6 +41,43 @@
 
 ```
 
+***
+- Menu bar(햄버거 아이콘 클릭 이벤트)
+   + 햄버거 아이콘 클릭 이벤트 처리 함수 선언
+```
+    const onToggle = () => {
+    setIsNav(!isNav);
+};
+
+// onToggle: 햄버거 아이콘을 클릭할 때 호출되는 함수로, 현재 상태를 반전시켜 메뉴를 열거나 닫습니다.
+
+```
+ + 메뉴 항목 렌더링
+```
+<ul>
+    {dataMenu.map((item, idx) => (
+        <li key={idx}><Link to={item.path}>{item.title}</Link></li>
+    ))}
+</ul>
+
+// dataMenu.map: 메뉴 데이터를 순회하며 각 메뉴 항목에 대한 <li> 요소를 생성합니다.
+// <Link to={item.path}>{item.title}</Link>: React Router의 Link 컴포넌트를 사용하여 메뉴 항목에 대한 링크를 생성합니다.
+```
+ + 메뉴 닫기 버튼 렌더링
+```
+<p className='close' onClick={() => setIsNav(false)}>
+    <i className='xi-close'></i>
+</p>
+
+// onClick={() => setIsNav(false)}: 메뉴 닫기 버튼을 클릭할 때 호출되는 함수로, 메뉴를 닫습니다.
+// <i className='xi-close'></i>: 닫기 아이콘을 표시합니다.
+```
+ + 메뉴의 보이기/감추기를 조절하는 클래스 적용
+```
+<nav className={isNav ? '' : 'on'}>
+
+// isNav 상태에 따라 클래스를 추가하여 메뉴가 보이거나 감춰지게 합니다.
+```
 
 ***
 - 카테고리에 알맞은 카드 이미지 노출
